@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node index.js",
+    "dev": "npx prisma generate && npx prisma migrate dev && node index.js",
     "test": "jest --runInBand"
   },
   "keywords": [],
