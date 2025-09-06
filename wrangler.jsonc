@@ -1,5 +1,0 @@
-{
-    "name": "cipherlink-api",
-    "compatibility_date": "2025-09-05",
-    "main": "src/index.js"
-}
