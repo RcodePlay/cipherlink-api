@@ -1,2 +1,4 @@
 import app from "./app.js";
-app.listen(3000, () => console.log("Cipherlink API running on :3000"));
+const port = process.env.PORT || 3000;
+
+app.listen(port, () => console.log(`Cipherlink API running on :${port}`));
